@@ -17,7 +17,14 @@ $(function(){
 			$('html, body').css('height', '100%');
 		}
 		var apartmentId = $(this).attr('href').replace('#details-', '');
-		
+		$.ajax({
+			type: "GET",
+			url: "details.php",
+			data: {"id": apartmentId},
+			success:function(data){
+				$('#o-content').html(data);
+			}
+		});
 		$('.overlay').fadeIn(500);
 	});
 	
