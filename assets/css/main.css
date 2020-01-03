@@ -1,0 +1,47 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body { line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}/* remember to define focus styles! */:focus {outline: 0;}/* remember to highlight inserts somehow! */ins {text-decoration: none;}del {text-decoration: line-through;}/* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse;border-spacing: 0;}
+
+.clearfix::after { content: "";display: table; clear: both; }
+html, body { position: relative; }
+body { font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center; color: #444; font-size: 14px; }
+
+header, article, footer { width: 640px; margin: 0 auto; }
+header { padding-top: 50px; }
+article { padding-top: 50px; padding-bottom: 50px; min-height: 500px; }
+footer { height: 20px; }
+
+h1 { font-size: 18px; }
+h2 { font-size: 15px; margin-bottom: 10px; }
+p { padding-bottom: 10px; }
+p.back { padding-top: 150px; }
+p.error { color: red; font-weight: bold; }
+a:link, a:visited, a:hover, a:focus, a:active { text-decoration:none; }
+a { color: #666; }
+a:hover { color: #000; }
+label { display: inline-block; width: 80px; font-weight: bold;}
+
+
+.teaser {}
+.teaser h4 { padding-top: 5px; padding-bottom: 5px; margin-top:2px; background-color: #ccc; cursor: pointer; border-top: solid #111 1px; }
+.teaser .content { display: none; background-color: #eee; padding: 10px; text-align: left; }
+.teaser .content img { width: 250px; }
+.teaser .content .img-holder { float: left; padding-right: 10px; min-height: 150px; }
+.teaser .content p { padding-bottom: 8px; }
+.teaser .content p.space { padding-top: 20px; }
+
+.overlay { overflow: hidden; display: none; position: absolute; top:0; left: 0; right: 0; height: 100%; background-image:url('../images/semi_transparent_black.png'); }
+.o-outer { color: black; margin: 100px auto; width: 600px; position: relative; background-color: #fff; min-height: 400px; }
+#o-close { position: absolute; top: 10px; right: 10px; padding: 5px; cursor:pointer; background-color: #ddd; border-radius: 5px; }
+
+#o-content { padding: 50px 10px 10px 10px; overflow: scroll; max-height: 500px; }
+#o-content table { margin: 10px auto; }
+#o-content table th, #o-content table td { text-align: left; padding-bottom: 5px; }
+#o-content table th { padding-right: 5px; }
+#o-content img { width: 300px; padding: 10px;}
+
+form { width: 380px; text-align: left; margin: 20px auto; }
+form label { width: 120px; }
+form input, form textarea {width: 240px; vertical-align: middle; }
+form textarea { height: 50px;  }
+form input.submit { width: 100px; margin-left: 120px; }
+
+

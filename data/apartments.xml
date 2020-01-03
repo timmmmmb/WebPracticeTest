@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apartments>
+	<apartment>
+		<id>1</id>
+		<slogan>3 1/2-Room apartment with a magnificent view</slogan>
+		<street>Höhenweg 12</street>
+		<zip>3523</zip>
+		<city>Schönenberg</city>
+		<rooms>3.5</rooms>
+		<floor>3</floor>
+		<space>100</space>
+		<net_rent>1500</net_rent>
+		<additional_expenses>225</additional_expenses>
+		<available>1.1.2015</available>
+		<description>A beautiful apartment with magnificent views of the mountains! Despite its rural location, the city is reachable in just 20 minutes by public transport.</description>
+		
+		<images>
+			<image>
+				<src>001001.jpg</src>
+				<description>The mountains close enough to touch!</description>
+			</image>
+			<image>
+				<src>001002.jpg</src>
+				<description>Kitchen</description>
+			</image>
+			<image>
+				<src>001003.jpg</src>
+				<description>Bedroom</description>
+			</image>
+		</images>
+	</apartment>
+	<apartment>
+		<id>2</id>
+		<slogan>Small is beautiful with lots of charm!</slogan>
+		<street>Bahnhofstrasse 7</street>
+		<zip>3000</zip>
+		<city>Bern</city>
+		<rooms>2</rooms>
+		<floor>4</floor>
+		<space>45</space>
+		<net_rent>1050</net_rent>
+		<additional_expenses>150</additional_expenses>
+		<available>1.2.2015</available>
+		<description>A small penthouse with lots of comfort in the heart of the city. Public transport and shopping just around the corner. No parking, but whole district is Blue Zone.</description>
+	
+		<images>
+			<image>
+				<src>002001.jpg</src>
+				<description>Penthouse</description>
+			</image>
+			<image>
+				<src>002002.jpg</src>
+				<description>Penthouse</description>
+			</image>
+		</images>
+	</apartment>
+	<apartment>
+		<id>3</id>
+		<slogan>For families with pets</slogan>
+		<street>Quartiergasse 47</street>
+		<zip>3023</zip>
+		<city>Hinterkappeln</city>
+		<rooms>6</rooms>
+		<floor>1</floor>
+		<space>160</space>
+		<net_rent>2650</net_rent>
+		<additional_expenses>250</additional_expenses>
+		<available>15.1.2015</available>
+		<description>A large apartment with terrace. Ideal for families with pets. School and kindergarten are reachable on side roads in 10 minutes, by bike in 5 minutes. Private Parking on request, bus into town on the doorstep.</description>
+	
+		<images>
+			<image>
+				<src>003001.jpg</src>
+				<description>Large treeace</description>
+			</image>
+			<image>
+				<src>003002.jpg</src>
+				<description>New bathroom</description>
+			</image>
+			<image>
+				<src>003003.jpg</src>
+				<description>A modern kitchen</description>
+			</image>
+		</images>
+	</apartment>
+</apartments>
